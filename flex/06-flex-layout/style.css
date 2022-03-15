@@ -10,7 +10,6 @@ body {
   align-items: center;
 }
 
-
 header {
   display: flex;
   align-items: center;
@@ -35,7 +34,6 @@ content {
   justify-content: center;
   flex-direction: column;
 }
-
 
 img {
   width: 600px;

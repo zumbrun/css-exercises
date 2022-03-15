@@ -10,24 +10,24 @@ body {
   align-items: center;
 }
 
-header {
+.header {
   display: flex;
   align-items: center;
   justify-content: flex-start;
 }
 
-left-links {
+.left-links {
   display:flex;
   list-style-type: none;
 }
 
-right-links {
+.right-links {
   display: flex;
   list-style-type:  none;
   margin-left:auto
 }
 
-content {
+.content {
   flex: 1;
   display: flex;
   align-items: center;

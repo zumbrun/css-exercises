@@ -16,15 +16,23 @@ body {
   justify-content: flex-start;
 }
 
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
 .left-links {
   display:flex;
   list-style-type: none;
+  gap: 16px;
 }
 
 .right-links {
   display: flex;
   list-style-type:  none;
-  margin-left:auto
+  margin-left:auto;
+  gap: 16px;
 }
 
 .content {

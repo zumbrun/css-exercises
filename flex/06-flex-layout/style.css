@@ -7,32 +7,27 @@ body {
   font-family: Roboto, sans-serif;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
 }
 
-.header {
+.footer, .header {
   display: flex;
-  align-items: center;
-  justify-content: flex-start;
+  justify-content: space-between;
+  padding: 0px;
 }
-
 .footer {
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
+  background-color: lightgray;
 }
 
-.left-links {
-  display:flex;
-  list-style-type: none;
-  gap: 16px;
+a {
+  color: gray;
+  text-decoration-line:none;
 }
 
-.right-links {
+.right-links, .left-links{
   display: flex;
   list-style-type:  none;
-  margin-left:auto;
+  margin: 10px;
+  padding: 8px;
   gap: 16px;
 }
 
